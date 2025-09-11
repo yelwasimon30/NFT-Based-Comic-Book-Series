@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/NFT-Based-Comic-Book-Series.clar'
 clarity_version = 3
 epoch = 3.1
+
+[contracts.chapter-royalty-system]
+path = 'contracts/chapter-royalty-system.clar'
+clarity_version = 3
+epoch = 3.1
 [repl.analysis]
 passes = ['check_checker']
 
